@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/style_headerbar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/id_headerbar_icon" 
+        style="@style/style_headerbar_icon" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" 
+        android:textSize="18.0sp" 
+        android:textStyle="bold" 
+        android:textColor="#ffffffff" 
+        android:id="@+id/id_headerbar_name" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="Profile" 
+        android:layout_toRightOf="@id/id_headerbar_icon" 
+        android:layout_centerVertical="true" />
+</RelativeLayout>

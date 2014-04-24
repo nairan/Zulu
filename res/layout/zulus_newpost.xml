@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <include
+        android:id="@+id/lulus_id_headerbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/zulus_headerbar" />
+
+    <EditText
+        android:id="@+id/lulus_id_edit_newlulu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lulus_id_headerbar"
+        android:ems="10"
+        android:gravity="top|left"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/lulus_id_new_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Cancel" />
+
+    <Button
+        android:id="@+id/lulus_id_new_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Send" />
+
+    <Button
+        android:id="@+id/lulus_id_new_expire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/lulus_id_new_send"
+        android:text="Expire" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lulus_id_new_expire"
+        android:layout_alignBottom="@+id/lulus_id_new_expire"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="A new Lulu"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+</RelativeLayout>

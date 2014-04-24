@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/style_epp_divider"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView 
+        android:textSize="16.0sp"  
+        android:textColor="#ffffffff" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="  Basic information" 
+        android:layout_centerVertical="true" />
+    
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:bottom="1.0dip">
+        <shape android:shape="rectangle">
+            <solid android:color="#ffffffff" />
+        </shape>
+    </item>
+    
+    <item android:top="1.0dip">
+        <shape android:shape="rectangle">
+            <solid android:color="#ffcfcfd0" />
+        </shape>
+    </item>
+    
+    <item android:drawable="@drawable/list_item_selector"
+        android:top="1.0dip" 
+        android:bottom="1.0dip" />
+    
+</layer-list>

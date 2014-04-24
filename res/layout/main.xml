@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/autumn"
+    >
+    
+	<!-- android:background="@drawable/autumn" -->
+    <!-- 
+    <EditText
+        android:id="@+id/status_id_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="What you are thinking..." />
+
+    <Button
+        android:id="@+id/status_id_post_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Post" />
+	-->
+
+    <Button
+        android:id="@+id/discover_id_leave_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/main_leavebutton" />
+
+    <Button
+        android:id="@+id/discover_id_discover_button"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/discover_id_leave_button"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/main_discoverbutton" />
+
+    <CheckBox
+        android:id="@+id/discover_id_checkbx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="On"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/discover_id_contact_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/discover_id_discover_button"
+        android:background="@drawable/main_contactbutton" />
+
+</RelativeLayout>

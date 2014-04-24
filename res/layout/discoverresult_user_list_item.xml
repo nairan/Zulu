@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" 
+    android:background="@drawable/list_item" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+  	xmlns:android="http://schemas.android.com/apk/res/android">
+  	
+    <RelativeLayout android:layout_gravity="left|center" 
+        android:id="@+id/discoverresult_id_list_item" 
+        android:layout_width="0.0dip" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="10.0dip" 
+        android:layout_marginRight="5.0dip" 
+        android:layout_weight="0.75">
+        <TextView android:textSize="14.0dip" 
+            android:textColor="#ff000000" 
+            android:ellipsize="end" 
+            android:id="@+id/discoverresult_id_list_item_name" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="Nairan" 
+            android:singleLine="true" 
+            android:layout_alignParentLeft="true" 
+            android:layout_alignParentTop="true" />
+        <TextView android:textSize="12.0dip" 
+            android:textColor="#ff404040" 
+            android:ellipsize="end" 
+            android:id="@+id/discoverresult_id_list_item_status" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="Hungry" 
+            android:singleLine="true" 
+            android:layout_below="@id/discoverresult_id_list_item_name" 
+            android:layout_alignParentLeft="true" />
+        <!-- 
+        <TextView android:textSize="12.0dip" 
+            android:textStyle="bold" 
+            android:textColor="#ff000000" 
+            android:ellipsize="end" 
+            android:id="@+id/discoverresult_id_list_item_place" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="Engineering lobby" 
+            android:singleLine="true" 
+            android:layout_below="@id/discoverresult_id_list_item_status" 
+            android:layout_alignParentLeft="true" /> -->
+    </RelativeLayout>
+</LinearLayout>
